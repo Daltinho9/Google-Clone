@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="navlink">Search</a>
+        <a href="image-search.html" class="navlink">Image Search</a>
+        <img id="imgadv" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+    </nav>
+    
+    <h2 id="advheading">Advanced Search</h2>
+    <div class="divider"></div>
+        <div>
+            <h4>Find pages with...</h4>
+        </div>
+        <div class="formcontainer">    
+            
+                <form id="advform" action="https://google.com/search">
+                    <div class="section">
+                    <div class="inputlabel">
+                            <label>All these words:</label>
+                        </div>
+                        <div class="input">
+                            <input class="advinput" type="text" name="as_q">
+                        </div>
+                        
+                    </div>
+
+                    <div class="section">
+                        <div class="inputlabel">
+                            <label>This exact word or phrase:</label>
+                        </div>
+                        <div class="input">
+                            <input class="advinput" type="text" name="as_epq">
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="inputlabel">
+                            <label>Any of these words:</label>
+                        </div>
+                        <div class="input">
+                            <input class="advinput" type="text" name="as_oq">
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="inputlabel">
+                            <label>None of these words:</label>
+                        </div>
+                        <div class="input">
+                            <input class="advinput" type="text" name="as_eq">
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="btnsection">
+                            <input type="submit" id="advsubmit" value="Advanced Search">
+                        </div>
+                            
+                    </div>
+                </form>
+            
+        </div>
+        
+    
+    
+    </div>
+</body>
+</html>

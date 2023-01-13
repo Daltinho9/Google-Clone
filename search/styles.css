@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 55px;
+    padding: 15px 20px 0px 5px;
+    
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 10px 10px;
+}
+
+.navlink:hover{
+    text-decoration: underline;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    height: 700px;
+    margin: 0 25px;
+}
+
+#imgadv{
+   padding-left: 20px;
+   height: 40px;
+}
+
+form{
+    
+    height: 100px;
+    min-width: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 7px;
+}
+
+#searchbar{
+    height: 35px;
+    width: 100%;
+    margin: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    
+}
+
+#searchbar:hover{
+    box-shadow: 0 1px 6px rgba(128, 128, 128, 0.281);
+}
+
+#searchbar:focus{
+    outline: none;
+}
+
+input[type=text]{
+    padding: 0px 25px;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.btn:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 1px;
+}
+
+#logobox{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imgtxt{
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    color: #4285f4;
+    position: relative;
+    left: 110px;
+    bottom: 15px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#advheading, h4{
+ padding: 20px;
+ 
+}
+
+#advheading{
+    color: #d93025
+}
+
+.divider{
+    height: 2px;
+    background-color: lightgrey;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+
+
+.advinput{
+    height: 30px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    
+    }
+
+.advinput:focus{
+    outline: none;
+    border: 1px solid #4d90fe;
+}
+
+#advform{
+    width: auto;
+    display: inline-block;
+}
+
+.input{
+    display: flex;
+    width: auto;
+}
+
+
+.section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 20px;
+    height: 50px;
+}
+
+.inputlabel{
+    vertical-align: middle;
+    width: 220px;
+    height: 20px;
+}
+
+.formcontainer{
+    display: flex;
+    
+    width: 100%;
+    height: 400px;
+    max-width: 1000px;
+    min-width: 200px;
+}
+
+#advsubmit{
+    color: white;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #4285f4;
+    border-radius: 3px;
+    }
+
+#advsubmit:hover{
+    cursor: pointer;
+    background-color: #4286f4c7;
+}
+
+.btnsection{
+    display: flex;
+    justify-content: flex-start;
+    width: 155px;
+}
